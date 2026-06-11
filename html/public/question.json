@@ -1,0 +1,993 @@
+{
+  "Mathematics": [
+    {
+      "question": "What is 12 × 12?",
+      "options": ["124", "144", "132", "142"],
+      "answer": "144",
+      "explanation": "12 multiplied by 12 equals 144."
+    },
+    {
+      "question": "What is the square root of 81?",
+      "options": ["7", "8", "9", "10"],
+      "answer": "9",
+      "explanation": "9 × 9 = 81."
+    },
+    {
+      "question": "What is 25 + 37?",
+      "options": ["52", "62", "72", "82"],
+      "answer": "62",
+      "explanation": "25 + 37 = 62."
+    },
+    {
+      "question": "What is 100 ÷ 4?",
+      "options": ["20", "25", "30", "40"],
+      "answer": "25",
+      "explanation": "100 divided by 4 equals 25."
+    },
+    {
+      "question": "What is 15% of 200?",
+      "options": ["20", "25", "30", "35"],
+      "answer": "30",
+      "explanation": "0.15 × 200 = 30."
+    },
+    {
+      "question": "What is the value of π rounded to 2 decimal places?",
+      "options": ["3.12", "3.14", "3.16", "3.18"],
+      "answer": "3.14",
+      "explanation": "Pi is approximately 3.14159."
+    },
+    {
+      "question": "What is 7²?",
+      "options": ["14", "42", "49", "56"],
+      "answer": "49",
+      "explanation": "7 × 7 = 49."
+    },
+    {
+      "question": "What is 9 × 8?",
+      "options": ["72", "81", "64", "54"],
+      "answer": "72",
+      "explanation": "9 multiplied by 8 equals 72."
+    },
+    {
+      "question": "What is 50% of 90?",
+      "options": ["35", "40", "45", "50"],
+      "answer": "45",
+      "explanation": "Half of 90 is 45."
+    },
+    {
+      "question": "Solve: 18 + 24",
+      "options": ["40", "42", "44", "46"],
+      "answer": "42",
+      "explanation": "18 + 24 = 42."
+    },
+    {
+      "question": "What is 144 ÷ 12?",
+      "options": ["10", "11", "12", "13"],
+      "answer": "12",
+      "explanation": "12 × 12 = 144."
+    },
+    {
+      "question": "What is 13 × 5?",
+      "options": ["55", "60", "65", "70"],
+      "answer": "65",
+      "explanation": "13 multiplied by 5 equals 65."
+    },
+    {
+      "question": "What is 1000 - 455?",
+      "options": ["545", "555", "565", "575"],
+      "answer": "545",
+      "explanation": "1000 minus 455 equals 545."
+    },
+    {
+      "question": "What is the perimeter of a square with side 5?",
+      "options": ["10", "15", "20", "25"],
+      "answer": "20",
+      "explanation": "Perimeter = 4 × side."
+    },
+    {
+      "question": "What is 3³?",
+      "options": ["6", "9", "18", "27"],
+      "answer": "27",
+      "explanation": "3 × 3 × 3 = 27."
+    },
+    {
+      "question": "What is 20% of 150?",
+      "options": ["20", "25", "30", "35"],
+      "answer": "30",
+      "explanation": "0.2 × 150 = 30."
+    },
+    {
+      "question": "What is the area of a rectangle 5 × 4?",
+      "options": ["15", "20", "25", "30"],
+      "answer": "20",
+      "explanation": "Area = length × width."
+    },
+    {
+      "question": "What is 99 + 1?",
+      "options": ["99", "100", "101", "102"],
+      "answer": "100",
+      "explanation": "99 plus 1 equals 100."
+    },
+    {
+      "question": "What is 11 × 11?",
+      "options": ["111", "121", "131", "141"],
+      "answer": "121",
+      "explanation": "11 multiplied by 11 equals 121."
+    },
+    {
+      "question": "What is 200 ÷ 10?",
+      "options": ["10", "15", "20", "25"],
+      "answer": "20",
+      "explanation": "200 divided by 10 equals 20."
+    }
+  ],
+
+
+  "Science": [
+    {
+      "question": "What planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Venus", "Jupiter"],
+      "answer": "Mars",
+      "explanation": "Mars appears red because of iron oxide (rust) on its surface."
+    },
+    {
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "answer": "Carbon Dioxide",
+      "explanation": "Plants absorb carbon dioxide during photosynthesis to make food."
+    },
+    {
+      "question": "What is the chemical formula of water?",
+      "options": ["CO2", "H2O", "O2", "NaCl"],
+      "answer": "H2O",
+      "explanation": "A water molecule consists of two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "question": "Which organ pumps blood throughout the body?",
+      "options": ["Lungs", "Brain", "Heart", "Kidney"],
+      "answer": "Heart",
+      "explanation": "The heart circulates blood through the body's blood vessels."
+    },
+    {
+      "question": "What is the center of our solar system?",
+      "options": ["Moon", "Earth", "Sun", "Mars"],
+      "answer": "Sun",
+      "explanation": "The Sun is the star at the center of the solar system."
+    },
+    {
+      "question": "Which part of the plant conducts photosynthesis?",
+      "options": ["Root", "Stem", "Leaf", "Flower"],
+      "answer": "Leaf",
+      "explanation": "Leaves contain chlorophyll, which captures sunlight for photosynthesis."
+    },
+    {
+      "question": "What force pulls objects toward Earth?",
+      "options": ["Magnetism", "Electricity", "Gravity", "Friction"],
+      "answer": "Gravity",
+      "explanation": "Gravity is the force that attracts objects toward the Earth."
+    },
+    {
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "answer": "Nitrogen",
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere."
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Saturn", "Earth", "Mars", "Jupiter"],
+      "answer": "Jupiter",
+      "explanation": "Jupiter is the largest planet in the solar system."
+    },
+    {
+      "question": "What is the boiling point of water at sea level?",
+      "options": ["90°C", "95°C", "100°C", "110°C"],
+      "answer": "100°C",
+      "explanation": "Water boils at 100 degrees Celsius under normal atmospheric pressure."
+    },
+    {
+      "question": "Which human organ is responsible for breathing?",
+      "options": ["Heart", "Liver", "Lungs", "Kidneys"],
+      "answer": "Lungs",
+      "explanation": "The lungs exchange oxygen and carbon dioxide during respiration."
+    },
+    {
+      "question": "Which vitamin is produced when skin is exposed to sunlight?",
+      "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      "answer": "Vitamin D",
+      "explanation": "The body produces Vitamin D when exposed to sunlight."
+    },
+    {
+      "question": "What is the process by which plants make food?",
+      "options": ["Respiration", "Digestion", "Photosynthesis", "Fermentation"],
+      "answer": "Photosynthesis",
+      "explanation": "Plants use sunlight, water, and carbon dioxide to produce glucose."
+    },
+    {
+      "question": "What is the nearest star to Earth?",
+      "options": ["Sirius", "Alpha Centauri", "Sun", "Polaris"],
+      "answer": "Sun",
+      "explanation": "The Sun is the closest star to Earth."
+    },
+    {
+      "question": "Which blood cells help fight infections?",
+      "options": ["Red Blood Cells", "White Blood Cells", "Platelets", "Plasma"],
+      "answer": "White Blood Cells",
+      "explanation": "White blood cells are part of the immune system."
+    },
+    {
+      "question": "Which planet is famous for its rings?",
+      "options": ["Mars", "Venus", "Saturn", "Mercury"],
+      "answer": "Saturn",
+      "explanation": "Saturn is known for its prominent ring system."
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Silver"],
+      "answer": "Diamond",
+      "explanation": "Diamond is the hardest naturally occurring material."
+    },
+    {
+      "question": "What part of the human body contains the brain?",
+      "options": ["Chest", "Skull", "Arm", "Leg"],
+      "answer": "Skull",
+      "explanation": "The skull protects and houses the brain."
+    },
+    {
+      "question": "Which scientist developed the theory of gravity?",
+      "options": ["Albert Einstein", "Isaac Newton", "Galileo", "Nikola Tesla"],
+      "answer": "Isaac Newton",
+      "explanation": "Newton formulated the law of universal gravitation."
+    },
+    {
+      "question": "What is the main source of energy for Earth?",
+      "options": ["Moon", "Wind", "Sun", "Ocean"],
+      "answer": "Sun",
+      "explanation": "The Sun provides most of the energy that supports life on Earth."
+    }
+  ],
+
+
+  "History": [
+    {
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+      "answer": "George Washington",
+      "explanation": "George Washington served as the first President of the United States from 1789 to 1797."
+    },
+    {
+      "question": "Which ancient civilization built the pyramids?",
+      "options": ["Romans", "Greeks", "Egyptians", "Persians"],
+      "answer": "Egyptians",
+      "explanation": "The ancient Egyptians built the pyramids as tombs for their pharaohs."
+    },
+    {
+      "question": "Who discovered America in 1492?",
+      "options": ["Christopher Columbus", "Marco Polo", "Vasco da Gama", "Ferdinand Magellan"],
+      "answer": "Christopher Columbus",
+      "explanation": "Christopher Columbus reached the Americas in 1492 while sailing for Spain."
+    },
+    {
+      "question": "Which war was fought between the North and South regions of the United States?",
+      "options": ["World War I", "Civil War", "Revolutionary War", "Cold War"],
+      "answer": "Civil War",
+      "explanation": "The American Civil War was fought from 1861 to 1865."
+    },
+    {
+      "question": "Who was known as the 'Maid of Orleans'?",
+      "options": ["Cleopatra", "Joan of Arc", "Queen Victoria", "Marie Curie"],
+      "answer": "Joan of Arc",
+      "explanation": "Joan of Arc was a French heroine who helped lead France during the Hundred Years' War."
+    },
+    {
+      "question": "Which empire was ruled by Julius Caesar?",
+      "options": ["Greek Empire", "Roman Empire", "Ottoman Empire", "British Empire"],
+      "answer": "Roman Empire",
+      "explanation": "Julius Caesar was a Roman general and statesman."
+    },
+    {
+      "question": "In which year did World War II end?",
+      "options": ["1943", "1944", "1945", "1946"],
+      "answer": "1945",
+      "explanation": "World War II ended in 1945 after the surrender of Germany and Japan."
+    },
+    {
+      "question": "Who was the first man to walk on the Moon?",
+      "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+      "answer": "Neil Armstrong",
+      "explanation": "Neil Armstrong stepped onto the Moon on July 20, 1969."
+    },
+    {
+      "question": "Which wall divided East and West Berlin?",
+      "options": ["Great Wall", "Berlin Wall", "Roman Wall", "Iron Wall"],
+      "answer": "Berlin Wall",
+      "explanation": "The Berlin Wall stood from 1961 until 1989."
+    },
+    {
+      "question": "Who was the leader of Nazi Germany during World War II?",
+      "options": ["Joseph Stalin", "Benito Mussolini", "Adolf Hitler", "Winston Churchill"],
+      "answer": "Adolf Hitler",
+      "explanation": "Adolf Hitler was the dictator of Nazi Germany from 1933 to 1945."
+    },
+    {
+      "question": "Which country gifted the Statue of Liberty to the United States?",
+      "options": ["France", "Germany", "Italy", "Spain"],
+      "answer": "France",
+      "explanation": "France gifted the Statue of Liberty in 1886 as a symbol of friendship."
+    },
+    {
+      "question": "Who was the famous queen of ancient Egypt?",
+      "options": ["Elizabeth I", "Victoria", "Cleopatra", "Catherine"],
+      "answer": "Cleopatra",
+      "explanation": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt."
+    },
+    {
+      "question": "Which event began on September 1, 1939?",
+      "options": ["World War I", "Cold War", "World War II", "Vietnam War"],
+      "answer": "World War II",
+      "explanation": "World War II began when Germany invaded Poland."
+    },
+    {
+      "question": "Who invented the printing press?",
+      "options": ["Isaac Newton", "Johannes Gutenberg", "Leonardo da Vinci", "Galileo"],
+      "answer": "Johannes Gutenberg",
+      "explanation": "Gutenberg developed the movable-type printing press around 1440."
+    },
+    {
+      "question": "Which civilization is known for democracy in ancient times?",
+      "options": ["Egypt", "Rome", "Greece", "China"],
+      "answer": "Greece",
+      "explanation": "Ancient Athens in Greece is often considered the birthplace of democracy."
+    },
+    {
+      "question": "Who was the first Emperor of Rome?",
+      "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+      "answer": "Augustus",
+      "explanation": "Augustus became Rome's first emperor in 27 BCE."
+    },
+    {
+      "question": "Which ship sank on its maiden voyage in 1912?",
+      "options": ["Britannic", "Titanic", "Lusitania", "Queen Mary"],
+      "answer": "Titanic",
+      "explanation": "The RMS Titanic struck an iceberg and sank in April 1912."
+    },
+    {
+      "question": "Who led India to independence through nonviolent resistance?",
+      "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Bhagat Singh"],
+      "answer": "Mahatma Gandhi",
+      "explanation": "Gandhi promoted nonviolent civil disobedience against British rule."
+    },
+    {
+      "question": "Which dynasty built the Taj Mahal?",
+      "options": ["Maurya", "Gupta", "Mughal", "Chola"],
+      "answer": "Mughal",
+      "explanation": "The Taj Mahal was built by Mughal Emperor Shah Jahan."
+    },
+    {
+      "question": "When did India gain independence from British rule?",
+      "options": ["1945", "1946", "1947", "1948"],
+      "answer": "1947",
+      "explanation": "India became independent on August 15, 1947."
+    }
+  ],
+
+
+  "Geography": [
+    {
+      "question": "What is the largest continent on Earth?",
+      "options": ["Africa", "Asia", "Europe", "North America"],
+      "answer": "Asia",
+      "explanation": "Asia is the largest continent by both area and population."
+    },
+    {
+      "question": "Which is the longest river in the world?",
+      "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "answer": "Nile River",
+      "explanation": "The Nile River is traditionally recognized as the world's longest river."
+    },
+    {
+      "question": "What is the capital city of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "answer": "Canberra",
+      "explanation": "Canberra is the capital city of Australia, not Sydney."
+    },
+    {
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean",
+      "explanation": "The Pacific Ocean covers more area than any other ocean."
+    },
+    {
+      "question": "Mount Everest is located in which mountain range?",
+      "options": ["Andes", "Rockies", "Alps", "Himalayas"],
+      "answer": "Himalayas",
+      "explanation": "Mount Everest is part of the Himalayan mountain range."
+    },
+    {
+      "question": "Which country has the largest population in the world?",
+      "options": ["India", "China", "United States", "Indonesia"],
+      "answer": "India",
+      "explanation": "India currently has the largest population in the world."
+    },
+    {
+      "question": "Which desert is the largest hot desert in the world?",
+      "options": ["Gobi Desert", "Kalahari Desert", "Sahara Desert", "Arabian Desert"],
+      "answer": "Sahara Desert",
+      "explanation": "The Sahara is the largest hot desert, covering much of North Africa."
+    },
+    {
+      "question": "Which continent is known as the 'Dark Continent'?",
+      "options": ["Asia", "Africa", "Europe", "South America"],
+      "answer": "Africa",
+      "explanation": "Africa was historically referred to as the 'Dark Continent' by European explorers."
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "options": ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
+      "answer": "Tokyo",
+      "explanation": "Tokyo is the capital and largest city of Japan."
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Thailand", "Japan", "South Korea"],
+      "answer": "Japan",
+      "explanation": "Japan is often called the Land of the Rising Sun."
+    },
+    {
+      "question": "Which is the smallest continent?",
+      "options": ["Europe", "Australia", "Antarctica", "South America"],
+      "answer": "Australia",
+      "explanation": "Australia is the smallest continent by land area."
+    },
+    {
+      "question": "What is the capital of India?",
+      "options": ["Mumbai", "Kolkata", "New Delhi", "Chennai"],
+      "answer": "New Delhi",
+      "explanation": "New Delhi serves as the capital of India."
+    },
+    {
+      "question": "Which river flows through Egypt?",
+      "options": ["Amazon", "Yangtze", "Nile", "Danube"],
+      "answer": "Nile",
+      "explanation": "The Nile River is the primary river flowing through Egypt."
+    },
+    {
+      "question": "Which country has the most islands in the world?",
+      "options": ["Indonesia", "Philippines", "Sweden", "Japan"],
+      "answer": "Sweden",
+      "explanation": "Sweden has over 260,000 islands, the most of any country."
+    },
+    {
+      "question": "Which ocean lies between Africa and Australia?",
+      "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+      "answer": "Indian Ocean",
+      "explanation": "The Indian Ocean is located between Africa, Asia, and Australia."
+    },
+    {
+      "question": "What is the largest country in the world by area?",
+      "options": ["Canada", "China", "Russia", "United States"],
+      "answer": "Russia",
+      "explanation": "Russia is the world's largest country by land area."
+    },
+    {
+      "question": "Which U.S. state is known as the 'Sunshine State'?",
+      "options": ["California", "Texas", "Florida", "Arizona"],
+      "answer": "Florida",
+      "explanation": "Florida is commonly known as the Sunshine State."
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["Lyon", "Marseille", "Paris", "Nice"],
+      "answer": "Paris",
+      "explanation": "Paris is the capital and largest city of France."
+    },
+    {
+      "question": "Which continent contains the South Pole?",
+      "options": ["South America", "Africa", "Australia", "Antarctica"],
+      "answer": "Antarctica",
+      "explanation": "The South Pole is located on the continent of Antarctica."
+    },
+    {
+      "question": "Which strait separates Asia and North America?",
+      "options": ["Strait of Gibraltar", "Bering Strait", "Malacca Strait", "Hormuz Strait"],
+      "answer": "Bering Strait",
+      "explanation": "The Bering Strait lies between Russia and Alaska."
+    }
+  ],
+
+
+  "GeneralKnowledge": [
+    {
+      "question": "What is the capital of India?",
+      "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+      "answer": "New Delhi",
+      "explanation": "New Delhi is the capital city of India and the seat of the central government."
+    },
+    {
+      "question": "How many days are there in a leap year?",
+      "options": ["364", "365", "366", "367"],
+      "answer": "366",
+      "explanation": "A leap year contains 366 days because February has 29 days."
+    },
+    {
+      "question": "Which is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Shark"],
+      "answer": "Blue Whale",
+      "explanation": "The Blue Whale is the largest animal known to have ever existed."
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7",
+      "explanation": "The seven continents are Asia, Africa, Europe, North America, South America, Antarctica, and Australia."
+    },
+    {
+      "question": "Which country is famous for the Eiffel Tower?",
+      "options": ["Italy", "Germany", "France", "Spain"],
+      "answer": "France",
+      "explanation": "The Eiffel Tower is located in Paris, France."
+    },
+    {
+      "question": "What is the national currency of Japan?",
+      "options": ["Won", "Dollar", "Yuan", "Yen"],
+      "answer": "Yen",
+      "explanation": "The Japanese Yen is the official currency of Japan."
+    },
+    {
+      "question": "Which animal is known as the King of the Jungle?",
+      "options": ["Tiger", "Elephant", "Lion", "Leopard"],
+      "answer": "Lion",
+      "explanation": "The lion is traditionally referred to as the King of the Jungle."
+    },
+    {
+      "question": "How many colors are there in a rainbow?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7",
+      "explanation": "The rainbow consists of seven colors: Red, Orange, Yellow, Green, Blue, Indigo, and Violet."
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Mercury", "Earth", "Mars"],
+      "answer": "Mercury",
+      "explanation": "Mercury is the first and closest planet to the Sun."
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "J.K. Rowling"],
+      "answer": "William Shakespeare",
+      "explanation": "Romeo and Juliet is one of Shakespeare's most famous plays."
+    },
+    {
+      "question": "Which is the largest ocean on Earth?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "answer": "Pacific",
+      "explanation": "The Pacific Ocean is the largest ocean in the world."
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "6",
+      "explanation": "A hexagon is a polygon with six sides."
+    },
+    {
+      "question": "Which bird is known for mimicking human speech?",
+      "options": ["Crow", "Parrot", "Pigeon", "Eagle"],
+      "answer": "Parrot",
+      "explanation": "Parrots can imitate sounds and human speech."
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara", "Arabian", "Gobi", "Antarctica"],
+      "answer": "Antarctica",
+      "explanation": "Antarctica is the world's largest desert because it receives very little precipitation."
+    },
+    {
+      "question": "Which festival is known as the Festival of Lights in India?",
+      "options": ["Holi", "Diwali", "Eid", "Christmas"],
+      "answer": "Diwali",
+      "explanation": "Diwali is celebrated with lamps, lights, and fireworks."
+    },
+    {
+      "question": "How many players are there in a football (soccer) team on the field?",
+      "options": ["9", "10", "11", "12"],
+      "answer": "11",
+      "explanation": "Each football team fields 11 players during a match."
+    },
+    {
+      "question": "What is the freezing point of water?",
+      "options": ["0°C", "10°C", "32°C", "100°C"],
+      "answer": "0°C",
+      "explanation": "Water freezes at 0°C under standard atmospheric pressure."
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Thailand", "Japan", "South Korea"],
+      "answer": "Japan",
+      "explanation": "Japan is often called the Land of the Rising Sun."
+    },
+    {
+      "question": "Who invented the telephone?",
+      "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Isaac Newton"],
+      "answer": "Alexander Graham Bell",
+      "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone."
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "answer": "2",
+      "explanation": "2 is the smallest and only even prime number."
+    }
+  ],
+
+
+  "English": [
+    {
+      "question": "Which word is a noun?",
+      "options": ["Run", "Happy", "Book", "Quickly"],
+      "answer": "Book",
+      "explanation": "A noun is a person, place, thing, or idea. 'Book' is a thing."
+    },
+    {
+      "question": "Choose the correct synonym for 'Happy'.",
+      "options": ["Sad", "Joyful", "Angry", "Tired"],
+      "answer": "Joyful",
+      "explanation": "Joyful means feeling happiness or great pleasure."
+    },
+    {
+      "question": "What is the opposite of 'Hot'?",
+      "options": ["Warm", "Cool", "Cold", "Boiling"],
+      "answer": "Cold",
+      "explanation": "Cold is the antonym of hot."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "options": [
+        "She go to school.",
+        "She goes to school.",
+        "She going to school.",
+        "She gone to school."
+      ],
+      "answer": "She goes to school.",
+      "explanation": "The singular subject 'She' requires the verb 'goes'."
+    },
+    {
+      "question": "Which punctuation mark ends a question?",
+      "options": [".", ",", "!", "?"],
+      "answer": "?",
+      "explanation": "Questions end with a question mark."
+    },
+    {
+      "question": "What is the plural of 'Child'?",
+      "options": ["Childs", "Children", "Childes", "Childrens"],
+      "answer": "Children",
+      "explanation": "Children is the irregular plural form of child."
+    },
+    {
+      "question": "Which word is an adjective?",
+      "options": ["Quickly", "Run", "Beautiful", "Teacher"],
+      "answer": "Beautiful",
+      "explanation": "An adjective describes a noun."
+    },
+    {
+      "question": "Choose the correct spelling.",
+      "options": ["Recieve", "Receive", "Receeve", "Receve"],
+      "answer": "Receive",
+      "explanation": "The correct spelling is 'Receive'."
+    },
+    {
+      "question": "Which word is a verb?",
+      "options": ["School", "Jump", "Red", "Friend"],
+      "answer": "Jump",
+      "explanation": "A verb describes an action."
+    },
+    {
+      "question": "What is the past tense of 'Eat'?",
+      "options": ["Eated", "Eating", "Ate", "Eats"],
+      "answer": "Ate",
+      "explanation": "Ate is the correct past tense of eat."
+    },
+    {
+      "question": "Which sentence uses correct capitalization?",
+      "options": [
+        "i live in India.",
+        "I live in india.",
+        "I live in India.",
+        "i Live in India."
+      ],
+      "answer": "I live in India.",
+      "explanation": "The pronoun 'I' and country names should be capitalized."
+    },
+    {
+      "question": "Which word is a pronoun?",
+      "options": ["House", "They", "Running", "Blue"],
+      "answer": "They",
+      "explanation": "A pronoun replaces a noun."
+    },
+    {
+      "question": "What is the synonym of 'Big'?",
+      "options": ["Tiny", "Large", "Short", "Narrow"],
+      "answer": "Large",
+      "explanation": "Large has a similar meaning to big."
+    },
+    {
+      "question": "Which word is an adverb?",
+      "options": ["Fast", "Quickly", "Car", "Teacher"],
+      "answer": "Quickly",
+      "explanation": "Adverbs describe verbs, adjectives, or other adverbs."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Their going home.",
+        "They're going home.",
+        "There going home.",
+        "Theyre going home."
+      ],
+      "answer": "They're going home.",
+      "explanation": "'They're' is the contraction of 'they are'."
+    },
+    {
+      "question": "What is the antonym of 'Early'?",
+      "options": ["Soon", "Late", "Fast", "Quick"],
+      "answer": "Late",
+      "explanation": "Late is the opposite of early."
+    },
+    {
+      "question": "Which word contains a prefix?",
+      "options": ["Happy", "Unhappy", "House", "Book"],
+      "answer": "Unhappy",
+      "explanation": "'Un-' is a prefix added to the word happy."
+    },
+    {
+      "question": "What type of sentence gives a command?",
+      "options": [
+        "Interrogative",
+        "Declarative",
+        "Imperative",
+        "Exclamatory"
+      ],
+      "answer": "Imperative",
+      "explanation": "Imperative sentences give commands or instructions."
+    },
+    {
+      "question": "Which word is a conjunction?",
+      "options": ["And", "Blue", "Walk", "Quickly"],
+      "answer": "And",
+      "explanation": "Conjunctions connect words, phrases, or clauses."
+    },
+    {
+      "question": "What is the main purpose of a paragraph?",
+      "options": [
+        "To confuse the reader",
+        "To present one main idea",
+        "To list random words",
+        "To create questions only"
+      ],
+      "answer": "To present one main idea",
+      "explanation": "A paragraph is a group of sentences focused on one central idea."
+    }
+  ],
+
+
+  "ComputerScience": [
+    {
+      "question": "What does CPU stand for?",
+      "options": [
+        "Central Process Unit",
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Program Unit"
+      ],
+      "answer": "Central Processing Unit",
+      "explanation": "The CPU (Central Processing Unit) is the main component responsible for executing instructions in a computer."
+    },
+    {
+      "question": "Which device is considered the brain of the computer?",
+      "options": [
+        "Monitor",
+        "Keyboard",
+        "CPU",
+        "Mouse"
+      ],
+      "answer": "CPU",
+      "explanation": "The CPU performs calculations and processes data, making it the brain of the computer."
+    },
+    {
+      "question": "What does RAM stand for?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Run Access Memory",
+        "Rapid Access Memory"
+      ],
+      "answer": "Random Access Memory",
+      "explanation": "RAM temporarily stores data and programs that are currently in use."
+    },
+    {
+      "question": "Which of the following is an input device?",
+      "options": [
+        "Monitor",
+        "Printer",
+        "Keyboard",
+        "Speaker"
+      ],
+      "answer": "Keyboard",
+      "explanation": "A keyboard allows users to enter data into a computer."
+    },
+    {
+      "question": "Which of the following is an output device?",
+      "options": [
+        "Mouse",
+        "Keyboard",
+        "Scanner",
+        "Monitor"
+      ],
+      "answer": "Monitor",
+      "explanation": "A monitor displays information processed by the computer."
+    },
+    {
+      "question": "What is the full form of HTML?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Markup Language",
+        "Hyper Tool Markup Language",
+        "Hyper Transfer Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language",
+      "explanation": "HTML is the standard language used to create web pages."
+    },
+    {
+      "question": "Which language is used to style web pages?",
+      "options": [
+        "HTML",
+        "Python",
+        "CSS",
+        "Java"
+      ],
+      "answer": "CSS",
+      "explanation": "CSS (Cascading Style Sheets) controls the appearance of web pages."
+    },
+    {
+      "question": "Which language is commonly used to add interactivity to websites?",
+      "options": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "SQL"
+      ],
+      "answer": "JavaScript",
+      "explanation": "JavaScript is used to create dynamic and interactive web pages."
+    },
+    {
+      "question": "What does URL stand for?",
+      "options": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "Unique Resource Locator",
+        "Universal Reference Locator"
+      ],
+      "answer": "Uniform Resource Locator",
+      "explanation": "A URL is the address used to access resources on the internet."
+    },
+    {
+      "question": "Which company developed Windows?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "answer": "Microsoft",
+      "explanation": "Microsoft developed the Windows operating system."
+    },
+    {
+      "question": "What is the primary purpose of an operating system?",
+      "options": [
+        "Create websites",
+        "Manage hardware and software resources",
+        "Browse the internet",
+        "Store files only"
+      ],
+      "answer": "Manage hardware and software resources",
+      "explanation": "The operating system acts as an interface between users and hardware."
+    },
+    {
+      "question": "Which of these is a programming language?",
+      "options": [
+        "Chrome",
+        "Windows",
+        "Python",
+        "Google"
+      ],
+      "answer": "Python",
+      "explanation": "Python is a popular programming language used in many applications."
+    },
+    {
+      "question": "What does WWW stand for?",
+      "options": [
+        "World Wide Web",
+        "World Web Wide",
+        "Wide World Web",
+        "Web World Wide"
+      ],
+      "answer": "World Wide Web",
+      "explanation": "The WWW is a system of interconnected documents and resources on the internet."
+    },
+    {
+      "question": "Which storage device generally has the largest capacity?",
+      "options": [
+        "USB Flash Drive",
+        "CD",
+        "Hard Disk Drive",
+        "DVD"
+      ],
+      "answer": "Hard Disk Drive",
+      "explanation": "Hard drives typically store much more data than CDs, DVDs, or flash drives."
+    },
+    {
+      "question": "What is a computer virus?",
+      "options": [
+        "A hardware component",
+        "A malicious software program",
+        "A type of operating system",
+        "A storage device"
+      ],
+      "answer": "A malicious software program",
+      "explanation": "A computer virus is designed to damage, disrupt, or gain unauthorized access to systems."
+    },
+    {
+      "question": "Which key is commonly used to delete characters to the left of the cursor?",
+      "options": [
+        "Enter",
+        "Shift",
+        "Backspace",
+        "Tab"
+      ],
+      "answer": "Backspace",
+      "explanation": "The Backspace key removes characters to the left of the cursor."
+    },
+    {
+      "question": "What does PDF stand for?",
+      "options": [
+        "Portable Document Format",
+        "Personal Document File",
+        "Portable Data File",
+        "Program Document Format"
+      ],
+      "answer": "Portable Document Format",
+      "explanation": "PDF is a file format used to present documents consistently across devices."
+    },
+    {
+      "question": "Which database language is used to retrieve data?",
+      "options": [
+        "HTML",
+        "CSS",
+        "SQL",
+        "XML"
+      ],
+      "answer": "SQL",
+      "explanation": "SQL (Structured Query Language) is used to manage and query databases."
+    },
+    {
+      "question": "What does LAN stand for?",
+      "options": [
+        "Local Area Network",
+        "Large Area Network",
+        "Long Area Network",
+        "Linked Area Network"
+      ],
+      "answer": "Local Area Network",
+      "explanation": "A LAN connects computers within a limited geographic area such as a school or office."
+    },
+    {
+      "question": "Which of the following is a web browser?",
+      "options": [
+        "Windows",
+        "Chrome",
+        "Linux",
+        "Excel"
+      ],
+      "answer": "Chrome",
+      "explanation": "Google Chrome is a web browser used to access websites on the internet."
+    }
+  ]
+}
