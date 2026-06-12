@@ -5,23 +5,40 @@ const container =
 document.getElementById("leaderboardList");
 
 if (leaderboard.length === 0) {
-    container.innerHTML = "<p>No scores yet</p>";
-} else {
-    container.innerHTML = leaderboard.map((item, index) => {
+
+    container.innerHTML =
+    "<p>No scores yet.</p>";
+
+}
+else {
+
+    container.innerHTML =
+    leaderboard
+    .map((player, index) => {
+
         return `
-            <div style="
-                padding:15px;
-                margin:10px 0;
-                background:#f1f5f9;
-                border-radius:12px;
-                text-align:left;
-            ">
-                <strong>#${index + 1} ${item.name}</strong><br>
-                Subject: ${item.subject}<br>
-                Score: ${item.score}/${item.total}<br>
-                Percentage: ${item.percentage}%<br>
-                Date: ${item.date}
+            <div class="leaderboard-item">
+                <h3>
+                    #${index + 1}
+                    ${player.name || "Player"}
+                </h3>
+
+                <p>
+                    ${player.subject}
+                </p>
+
+                <p>
+                    ${player.score}/${player.total}
+                    (${player.percentage}%)
+                </p>
+
+                <p>
+                    ${player.date}
+                </p>
             </div>
         `;
-    }).join("");
+
+    })
+    .join("");
+
 }

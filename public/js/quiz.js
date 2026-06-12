@@ -373,52 +373,102 @@ document
             loadQuestion();
 
         }
-        else{
+       else{
 
-            localStorage.setItem(
-                "quizScore",
-                score
-            );
+    localStorage.setItem(
+        "quizScore",
+        score
+    );
 
-            localStorage.setItem(
-                "totalQuestions",
-                questions.length
-            );
+    localStorage.setItem(
+        "totalQuestions",
+        questions.length
+    );
 
-            localStorage.setItem(
-                subject +
-                "_completed",
-                "true"
-            );
+    localStorage.setItem(
+        subject +
+        "_completed",
+        "true"
+    );
 
-            const previousBest =
+    const previousBest =
 
-            Number(
-                localStorage.getItem(
-                    subject +
-                    "_best"
-                )
-            ) || 0;
+    Number(
+        localStorage.getItem(
+            subject +
+            "_best"
+        )
+    ) || 0;
 
-            if(
-                score >
-                previousBest
-            ){
+    if(
+        score >
+        previousBest
+    ){
 
-                localStorage.setItem(
-                    subject +
-                    "_best",
-                    score
-                );
-
-            }
-
-            window.location.href =
-            "result.html";
-
-        }
+        localStorage.setItem(
+            subject +
+            "_best",
+            score
+        );
 
     }
+
+    // ====================
+    // SAVE TO LEADERBOARD
+    // ====================
+
+    const username =
+    localStorage.getItem(
+        "username"
+    ) || "Guest";
+
+    const percentage =
+    Math.round(
+        (score / questions.length)
+        * 100
+    );
+
+    let leaderboard =
+    JSON.parse(
+        localStorage.getItem(
+            "leaderboard"
+        )
+    ) || [];
+
+    leaderboard.push({
+
+        name: username,
+
+        subject: subject,
+
+        score: score,
+
+        total: questions.length,
+
+        percentage: percentage
+
+    });
+
+    leaderboard.sort(
+        (a,b) =>
+        b.percentage -
+        a.percentage
+    );
+
+    localStorage.setItem(
+        "leaderboard",
+        JSON.stringify(
+            leaderboard
+        )
+    );
+
+    window.location.href =
+    "result.html";
+
+}
+        }
+
+    
 );
 
 // ====================
