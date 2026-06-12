@@ -210,6 +210,45 @@ document.getElementById("nextBtn").addEventListener("click", () => {
         window.location.href = "result.html";
     }
 });
+document.getElementById("submitBtn").addEventListener("click", () => {
+
+    // SAVE BASIC DATA
+    localStorage.setItem("quizScore", score);
+    localStorage.setItem("totalQuestions", questions.length);
+    localStorage.setItem(subject + "_completed", "true");
+
+    // BEST SCORE
+    const previousBest =
+        Number(localStorage.getItem(subject + "_best")) || 0;
+
+    if (score > previousBest) {
+        localStorage.setItem(subject + "_best", score);
+    }
+
+    // SAVE TO LEADERBOARD
+    const username = localStorage.getItem("username") || "Guest";
+
+    const percentage = Math.round((score / questions.length) * 100);
+
+    let leaderboard =
+        JSON.parse(localStorage.getItem("leaderboard")) || [];
+
+    leaderboard.push({
+        name: username,
+        subject: subject,
+        score: score,
+        total: questions.length,
+        percentage: percentage,
+        date: new Date().toLocaleDateString()
+    });
+
+    leaderboard.sort((a, b) => b.percentage - a.percentage);
+
+    localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+
+    // GO TO RESULT PAGE
+    window.location.href = "result.html";
+});
 
 // PROGRESS BAR
 function updateProgress() {
