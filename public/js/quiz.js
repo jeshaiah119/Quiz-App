@@ -40,43 +40,33 @@ fetch("public/question.json")
     alert("Unable to load questions.");
 });
 
-// TIMER
+// TOTAL QUIZ TIME (5 minutes)
+let timeLeft = 300;
+let timer;
+
 function startTimer() {
 
     clearInterval(timer);
-    timeLeft = 600;// 10 minutes per question
-
-    document.getElementById("timer").textContent = timeLeft;
 
     timer = setInterval(() => {
 
-        timeLeft--;
-        document.getElementById("timer").textContent = timeLeft;
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
 
-        if (timeLeft <= 0) {
+        document.getElementById("timer").textContent =
+            `${minutes}:${seconds.toString().padStart(2, "0")}`;
+
+        timeLeft--;
+
+        if (timeLeft < 0) {
+
             clearInterval(timer);
 
-            const q = questions[currentQuestion];
+            // Auto-submit quiz
+            localStorage.setItem("quizScore", score);
+            localStorage.setItem("totalQuestions", questions.length);
 
-            const buttons = document.querySelectorAll(".option-btn");
-
-            buttons.forEach(btn => {
-                btn.disabled = true;
-
-                if (btn.textContent === q.answer) {
-                    btn.classList.add("correct");
-                }
-            });
-
-            document.getElementById("feedback").innerHTML = `
-                <div class="wrong-msg">
-                    ⏰ Time's Up
-                    <p>Correct Answer: <strong>${q.answer}</strong></p>
-                    <p>${q.explanation}</p>
-                </div>
-            `;
-
-            document.getElementById("nextBtn").style.display = "block";
+            window.location.href = "result.html";
         }
 
     }, 1000);
