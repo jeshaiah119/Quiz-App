@@ -2,7 +2,7 @@ let questions = [];
 let currentQuestion = 0;
 let score = 0;
 
-let timeLeft = 30;
+let timeLeft = 300; // 5 minutes
 let timer;
 
 const subject = localStorage.getItem("selectedSubject");
@@ -31,7 +31,7 @@ fetch("public/question.json")
         window.location.href = "index.html";
         return;
     }
-
+      startTimer();
     loadQuestion();
 
 })
@@ -39,10 +39,6 @@ fetch("public/question.json")
     console.error(error);
     alert("Unable to load questions.");
 });
-
-// TOTAL QUIZ TIME (5 minutes)
-let timeLeft = 300;
-let timer;
 
 function startTimer() {
 
@@ -54,7 +50,7 @@ function startTimer() {
         const seconds = timeLeft % 60;
 
         document.getElementById("timer").textContent =
-            `${minutes}:${seconds.toString().padStart(2, "0")}`;
+            `⏰ ${minutes}:${seconds.toString().padStart(2, "0")}`;
 
         timeLeft--;
 
@@ -62,9 +58,9 @@ function startTimer() {
 
             clearInterval(timer);
 
-            // Auto-submit quiz
             localStorage.setItem("quizScore", score);
             localStorage.setItem("totalQuestions", questions.length);
+            localStorage.setItem(subject + "_completed", "true");
 
             window.location.href = "result.html";
         }
