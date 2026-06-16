@@ -44,7 +44,7 @@ fetch("public/question.json")
 function startTimer() {
 
     clearInterval(timer);
-    timeLeft = 30;
+    timeLeft = 600;// 10 minutes per question
 
     document.getElementById("timer").textContent = timeLeft;
 
